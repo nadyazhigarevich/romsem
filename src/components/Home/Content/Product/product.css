@@ -1,0 +1,21 @@
+.product__link {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.product__link-text {
+  font-family: DIN Pro, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.product__link-text:hover {
+  color: #ff9846;
+  transition: 0.3s;
+}
